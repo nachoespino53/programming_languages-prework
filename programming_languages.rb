@@ -6,7 +6,7 @@ def reformat_languages(languages)
     new_hash = new_hash.merge!(x)
   end
   
-  new_hash = new_hash.map do |x|
+  new_hash.keys.map do |x|
     x.values[:style] = nil
   end
   
