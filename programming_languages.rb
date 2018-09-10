@@ -15,6 +15,7 @@ def reformat_languages(languages)
     elsif style_array_oo.includes?(x)
       new_hash[x][:styles] = [:oo]
     end
+  end
     
     new_hash[x][:style] = nil
   end
