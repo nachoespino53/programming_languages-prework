@@ -7,7 +7,7 @@ def reformat_languages(languages)
   end
   
   new_hash.keys.each do |x|
-    x.[:style] = nil
+    x[:style] = nil
   end
   
   style_array = languages[:oo].keys
