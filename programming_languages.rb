@@ -1,3 +1,5 @@
+require 'pry'
+
 def reformat_languages(languages)
   new_hash = {}
   style_array_oo = languages[:oo].keys
@@ -16,6 +18,6 @@ def reformat_languages(languages)
       new_hash[x][:styles] = [:oo]
     end
   end
-  
+  binding.pry
   new_hash
 end
