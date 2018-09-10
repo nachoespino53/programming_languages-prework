@@ -6,9 +6,7 @@ def reformat_languages(languages)
     new_hash = new_hash.merge!(x)
   end
   
-  languages.values.keys.each do |x|
-    style_array << x
-  end
+style_array = languages[:oo].keys
   
   new_hash
 end
