@@ -13,9 +13,9 @@ def reformat_languages(languages)
     if style_array_oo.include?(x) && style_array_functional.include?(x)
       new_hash[x][:style] = [:oo, :functional]
     elsif style_array_functional.include?(x)
-      new_hash[x][:styles] = [:functional]
+      new_hash[x][:style] = [:functional]
     elsif style_array_oo.include?(x)
-      new_hash[x][:styles] = [:oo]
+      new_hash[x][:style] = [:oo]
     end
   end
   binding.pry
