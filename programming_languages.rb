@@ -16,13 +16,6 @@ def reformat_languages(languages)
       new_hash[x][:styles] = [:oo]
     end
   end
-    
-    new_hash[x][:style] = nil
-  end
-
-
-  
-  
   
   new_hash
 end
